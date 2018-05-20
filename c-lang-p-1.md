@@ -1,14 +1,7 @@
-## In the first paragraph one : varavle
+# 第一章 
+3。3.1 整形常量的表示方法
 
-* int 
-* str 
-* string 
-
-Now we are going to install sougou pinyin chinese input .
-
-
-install add: (https://pinyin.sogou.com/linux/?r=pinyin)
-
-
-我刚刚看了亚库写了一大堆东西，全忘了
-
+1. 十进制  0——9
+2.  八进制  0-7 
+3. 十六进制 
+4. 
