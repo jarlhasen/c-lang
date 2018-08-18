@@ -1,0 +1,14 @@
+#include"stdio.h"
+int main()
+{
+   const int WEDTH = 5;
+   const int LENGTH = 5;
+   const char NEWLINE = '\n';
+         
+         int AREA;
+         AREA = WEDTH * LENGTH;
+         
+    printf("value of area is: %d",AREA);
+    printf("%c",NEWLINE);
+    return 0;
+}
