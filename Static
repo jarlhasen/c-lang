@@ -1,0 +1,19 @@
+#include"stdio.h"
+/*funtion declatation*/
+void func(void);
+static int count = 9; //global variable//
+main()
+{
+  while(count--)
+  {
+    func()
+  }
+  return 0;
+}
+/*function defination*/
+void func(void)
+{static int i=1;//local static function//
+i++;
+printf("i is %d count is %d",i,count);
+return 0;
+}
