@@ -1,0 +1,31 @@
+#include"stdio.h"
+int main()
+{
+  int a=5;
+  int b=20;
+  int c;
+  
+  if(a&&b)
+  {
+     printf("Line 1_Condition is tru \n");
+  }
+  if(a||b)
+  {
+   printf("line 2_Condition is true \n");
+  }
+  // lets change the valiue of a and b
+  int a=0;
+  int b=10;
+  if(a&&b)
+  {
+     printf("Line 3_Condition is true \n");
+  }
+  else
+  {
+     printf("Line 3_Condition is not true \n");
+  }
+  if(!(a||b))
+  {
+  printf("Line 4)_Condition is true \n");
+  }
+}
